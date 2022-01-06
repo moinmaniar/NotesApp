@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/add_info_frag"
+    tools:context=".DialogAdd"
+    android:padding="16dp"
+    android:background="#33F57C00">
+
+
+
+<!--        <TextView android:id="@+id/textView3"-->
+<!--                android:layout_width="301dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--            android:textColor="#ABC2185B"-->
+
+<!--            android:paddingLeft="20dp"-->
+<!--                android:text="add:"-->
+
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_editor_absoluteX="50dp" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_name"
+        android:hint="name:"
+        android:paddingTop="50dp" />
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="301dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="add:"-->
+
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_editor_absoluteX="50dp" />-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cardView"-->
+<!--        android:layout_width="301dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:cardCornerRadius="10dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.454"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView3"-->
+<!--        app:layout_constraintVertical_bias="0.0"-->
+<!--        app:layout_editor_absoluteX="50dp"-->
+<!--        app:layout_editor_absoluteY="23dp">-->
+
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:id="@+id/tvAddInfo"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:hint="name:"-->
+<!--            android:layout_gravity="left"-->
+<!--            android:gravity="left"-->
+<!--            android:inputType="text"-->
+<!--            android:maxLength="10"/>-->
+
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/btn_add"-->
+<!--        android:layout_marginTop="4dp"-->
+<!--        android:text="add"-->
+<!--        android:backgroundTint="#991976D2"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/cardView"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/cardView"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/cardView" />-->
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</RelativeLayout>
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:background="#B3FBC02D"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<!--<TextView-->
+<!--    android:id="@+id/textView3"-->
+<!--    android:layout_width="301dp"-->
+<!--    android:layout_height="20dp"-->
+<!--    android:gravity="center"-->
+<!--    android:text="add:"-->
+
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:layout_editor_absoluteX="50dp" />-->
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:id="@+id/cardView"-->
+<!--    android:layout_width="301dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginTop="20dp"-->
+<!--    app:cardCornerRadius="10dp"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintHorizontal_bias="0.454"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="@+id/textView3"-->
+<!--    app:layout_constraintVertical_bias="0.0"-->
+<!--    app:layout_editor_absoluteX="50dp"-->
+<!--    app:layout_editor_absoluteY="23dp">-->
+
+
+<!--    <com.google.android.material.textfield.TextInputEditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/tvAddInfo"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:hint="name:"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:gravity="left"-->
+<!--        android:inputType="text"-->
+<!--        android:maxLength="10"/>-->
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+<!--<com.google.android.material.button.MaterialButton-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:id="@+id/btn_add"-->
+<!--    android:layout_marginTop="4dp"-->
+<!--    android:text="add"-->
+<!--    android:backgroundTint="#991976D2"-->
+<!--    app:layout_constraintEnd_toEndOf="@+id/cardView"-->
+<!--    app:layout_constraintHorizontal_bias="1.0"-->
+<!--    app:layout_constraintStart_toStartOf="@+id/cardView"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/cardView" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
