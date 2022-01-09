@@ -19,7 +19,7 @@ public class HomePage extends AppCompatActivity {
    //     binding = ActivityHomePageBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_home_page);
 
-       getSupportFragmentManager().beginTransaction().replace(R.id.bottom_navigation,new HomeFragment()).commit();
+       getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,new HomeFragment()).commit();
 
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);

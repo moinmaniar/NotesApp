@@ -3,17 +3,21 @@
     package="com.example.customdialog">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_fav_red"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_mybook"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.CustomDialog">
+        android:theme="@style/Theme.CustomDialog"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".HomePage"
+            android:name=".covid19Api.covid19Activity"
+            android:exported="true" />
+        <activity
+            android:name=".myPractice.PracticeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +25,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HomePage"
+            android:exported="true"></activity>
         <activity
             android:name=".authentication.LoginPage"
             android:exported="true" />
